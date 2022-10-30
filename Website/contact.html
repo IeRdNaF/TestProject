@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CONTACT</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kurale&family=Lora:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+<body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="homephotos/logo.png">
+			<div class="nav-links" id="navLinks">
+				<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="service.html">SERVICE</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+			<i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>CONTACT</h1>
+	</section>
+
+<!--------Contact Us---------->
+
+<section class="location">
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6202.302928219733!2d-2.1109384527859194!3d49.186384446410436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480c532f8203d973%3A0x207af421de9efdb!2sCentral%20Market!5e0!3m2!1sen!2sje!4v1665823914982!5m2!1sen!2sje" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>	
+</section>
+
+<section class="contact-us">
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa fa-home" aria-hidden="true"></i>
+				<span>
+					<h5>Halket PL, St Helier</h5>
+					<p>Jersey, JE2 4WT</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-phone" aria-hidden="true"></i>
+				<span>
+					<h5>07829 819 516</h5>
+					<p>Monday to Friday, 9am to 6pm</p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-envelope-o" aria-hidden="true"></i>
+				<span>
+					<h5>fratechadvisor@gmail.com</h5>
+					<p>Email us your query</p>
+				</span>
+			</div>
+		</div>
+		<div class="contact-col">
+			<form action="form-handler.php" method="post">
+				<input type="text" name="name" placeholder="Enter your name" required>
+				<input type="text" name="email" placeholder="Enter email address" required>
+				<input type="text" name="subject" placeholder="Enter your subjext" required>
+				<textarea rows="10" name="message" placeholder="Message"></textarea>
+                <button type="submit" class="hero-btn red-btn">Send Message</button>
+			</form>
+			
+		</div>
+	</div>
+</section>
+
+
+
+
+<!--------Footer----------->
+
+	<section class="footer">
+    		<h4>Fallow us</h4>    		
+    		<div class="icons">
+    			<i class="fa fa-facebook" aria-hidden="true"></i>
+    			<i class="fa fa-instagram" aria-hidden="true"></i>
+    			<i class="fa fa-youtube" aria-hidden="true"></i>
+    		</div>
+    		<p>Made By IeRdNa <i class="fa fa-user-secret" aria-hidden="true"></i> </p>
+    	</section>
+
+
+
+		<!----avaScript for Toggle Menu----->
+<script>
+
+	var navLinks = document.getElementById("navLinks")
+	function showMenu(){
+		navLinks.style.right = "0"
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200"
+	}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>FraTech</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Kurale&family=Lora:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+</head>
+<body>
+	<section class="header-index">
+			<nav>
+				<a href="index.html"><img src="homephotos/logo.png">
+					<div class="nav-links" id="navLinks">
+						<i class="fa fa-times-circle" onclick="hideMenu()"></i>
+						<ul>
+							<li><a href="index.html">HOME</a></li>
+							<li><a href="about.html">ABOUT</a></li>
+							<li><a href="service.html">SERVICE</a></li>
+							<li><a href="contact.html">CONTACT</a></li>
+						</ul>
+					</div>
+				<i class="fa fa-bars" onclick="showMenu()"></i>
+			</nav>
+	</section>
+	<section>		
+			<div class="row">
+				<div class="campus-col">
+					<button type="button" class="hero-btn">
+					<h1>
+						<a href="about.html">About Us</a>
+					</h1>	
+					</button>				
+					<div>
+						<img src="aboutphotos/about.jpg">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	                </div>                		
+				</div>
+				<div class="campus-col">
+					<button type="button" class="hero-btn">
+					<h1>
+						<a href="service.html">Service</a>
+					</h1>
+					</button>				
+					<div>
+						<img src="extraphotos/extra.jpg">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	                </div>	                		
+				</div>
+				<div class="campus-col">
+					<button type="button" class="hero-btn">
+					<h1>
+						<a href="contact.html">Contact Us</a>
+					</h1>
+					</button>			
+					<div>
+						<img src="extraphotos/extra.jpg">
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	                </div>                		
+				</div>
+			</div>
+		</div>	
+	</section>
+
+	<!--------------------Testimonial-------------->
+
+	
+
+
+	<!-------------------footer---------------->
+
+		<section class="footer">
+    	<h4>Fallow us</h4>    		
+    		<div class="icons">
+    			<i class="fa fa-facebook" aria-hidden="true"></i>
+    			<i class="fa fa-instagram" aria-hidden="true"></i>
+    			<i class="fa fa-youtube" aria-hidden="true"></i>
+    		</div>
+    	<p>Made By IeRdNa <i class="fa fa-user-secret" aria-hidden="true"></i> </p>
+    </section>
+
+
+
+		<!----avaScript for Toggle Menu----->
+<script>
+
+	var navLinks = document.getElementById("navLinks")
+	function showMenu(){
+		navLinks.style.right = "0"
+	}
+	function hideMenu(){
+		navLinks.style.right = "-200"
+	}
+
+</script>
+</script>
+</body>
+</html>
